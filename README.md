@@ -40,7 +40,7 @@ ln -s /path/to/VCTK-Corpus/downsampled_wavs DUMMY2
 cd monotonic_align
 python setup.py build_ext --inplace
 
-# Preprocessing (g2p) for your own datasets. Preprocessed phonemes for LJ Speech and VCTK have been already provided.
+#您自己的数据集的预处理 （g2p）,已经提供了LJ Speech和VCTK的预处理音素.
 #python preprocess.py --text_index 1 --filelists filelists/ljs_audio_text_train_filelist.txt filelists/ljs_audio_text_val_filelist.txt filelists/ljs_audio_text_test_filelist.txt 
 #python preprocess.py --text_index 2 --filelists filelists/vctk_audio_sid_text_train_filelist.txt filelists/vctk_audio_sid_text_val_filelist.txt filelists/vctk_audio_sid_text_test_filelist.txt
 
